@@ -8,7 +8,7 @@ If you are running nifi via a docker image like `apache/nifi`, the following sho
  1. The image uses `apache/nifi` as the base image.
  2. You can specify any location for `lib/jdbc`, just remember that you need to use this as the reference for the file location so that it is referenced as `file:///lib/jdbc/mssql-jdbc-6.2.2.jre8.jar` (see the below image for a reference as to where this goes)
 
-![jdbc-file-reference](http://url/to/img.png)
+![jdbc-file-reference](https://raw.githubusercontent.com/NewteqDeveloper/nifi-docker-mssql/master/jdbc-file-reference.png)
 
 # Why?
 
