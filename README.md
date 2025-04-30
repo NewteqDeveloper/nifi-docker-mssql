@@ -1,7 +1,10 @@
 # nifi-docker-mssql
 This project is an example of a docker container of NiFi that allows you to connect to MS-SQL-Server
 
-# What?
+## Why does this exist?
+This project was originally created for a stackoverflow question. You can see the question here - [https://stackoverflow.com/q/41489816/2523968](https://stackoverflow.com/q/41489816/2523968)
+
+## What actually is this?
 
 If you are running nifi via a docker image like `apache/nifi`, the following should help you get the required driver on the image so that you don't need to `exec` into the container to do it manually.
 
@@ -10,6 +13,7 @@ If you are running nifi via a docker image like `apache/nifi`, the following sho
 
 ![jdbc-file-reference](https://raw.githubusercontent.com/NewteqDeveloper/nifi-docker-mssql/master/jdbc-file-reference.png)
 
-# Why?
+# Archived
+I've decided to do a purge of my GitHub repo's. So this will exist as an archive.
 
-https://stackoverflow.com/q/41489816/2523968
+If you've looking for something new or active development code bases, check out my codeberg account - [codeberg/newteq](https://codeberg.org/newteq)
